@@ -42,7 +42,7 @@ switch($conversion){
 if(isset($_POST['Conversion'])){// show conversion
     
     echo "<h2 align=center><font color=blue>". $temp ."</font> degrees converts to ";
-  	echo "<font color=red>" . $equation ."</font>!";
+  	echo "<font color=red>" . (round($equation, 2)) ."</font>!";
   	echo '<br><a href="http://www.ibssawado.dreamhosters.com/itc250/p1.php">Reset page</a>';
     
 }else{// show form
